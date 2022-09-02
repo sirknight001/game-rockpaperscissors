@@ -1,0 +1,31 @@
+body {
+    padding: 0;
+    margin: 0;
+    background: linear-gradient(to right, rgba(123,231,32,0.5),rgba(13,231,153,0.6),rgba(231,21,255,0.7));
+}
+
+div {
+    justify-content: center;
+    display: grid;
+    min-height: 50vh;
+    min-width: 50vh;
+}
+
+#computer-choice, #user-choice, #result {
+    font-family: cursive;
+}
+
+h1 {
+    text-align: center;
+    font-family: cursive;
+    font-size: 80px;
+}
+
+h2 {
+    font-family: cursive;
+}
+
+button {
+    cursor: pointer;
+    margin: 10px 10px;
+}
